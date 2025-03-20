@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest # use pre-built to bootstrap
+        - image: quay.io/jdubrick-ai/mar20-audiototext-cibuilt:5a75b7ccb349e7fab74a052d31919ba14e233025@sha256:d1e768dcd62458321f0b254448e10de8d8e88c92bbfc79d0cd0a6cc983484f29 # use pre-built to bootstrap
           name: app-inference
