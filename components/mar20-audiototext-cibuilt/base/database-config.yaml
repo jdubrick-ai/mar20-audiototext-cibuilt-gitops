@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar20-audiototext-cibuilt-database-config
+data:
+  VECTORDB_HOST: "mar20-audiototext-cibuilt-database"
+  VECTORDB_PORT: ""
